@@ -1,0 +1,17 @@
+40a9086a317b3d01b818a9cc9bd66c97 *DESCRIPTION
+18522b00933ff7db02674afd14946e2c *NAMESPACE
+c806950131475fbf95bc21ab03cce5a8 *R/covNoise.r
+df11fe8ea0522402eedfb9697274fd13 *R/covSEiso.r
+557b842e3d89ceedd6e40c3e45e2ede0 *R/covSum.r
+a548247dc98871bda37d81c15ce85d27 *R/gpr.r
+1d4b63a95b24815696146e3edce2a095 *R/minimize.r
+059662944c1f530d23a64b676dc4b240 *inst/doc/covNoise.pdf
+b06a43e1611e612b6a0293a3728dd38e *inst/doc/covSEiso.pdf
+1f0f6c4a9c710c6150890194bb39db2d *inst/doc/covSum.pdf
+8106337c49ec304c6623642d2c650693 *inst/doc/gpr.pdf
+c1c74a8552b42d93910fb79a5032b1e9 *inst/doc/minimize.pdf
+12e3974eb074bda0f27bb03a95f9e6ec *man/covNoise.Rd
+d5219e98705a171b48546a65f4f131fd *man/covSEiso.Rd
+947e835d531ff9f0f9ae86abc8040493 *man/covSum.Rd
+fdb3e8225fd924c2aa2ec2e1c9aafe24 *man/gpr.Rd
+7cae76ac3965af4254ccd8a805bc297c *man/minimize.Rd
