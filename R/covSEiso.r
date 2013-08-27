@@ -1,25 +1,34 @@
 sq_dist = function(A , B = NULL)
-{
+{	
 	mym= 0
 	resut = 0	
 	if( is.null(B)) {
 	B=A
 	}
 	toprint=FALSE
-
 	if(dim(A)[1] != dim( B)[1] ){
 		print("Error: column lengths must agree in sq_dist")
 	return 
+	}
+	if(length(A)==1  && length(B)==1){
+	A = as.vector(A)
+	B =	as.vector(B)
 	}
 	# result= ((as.matrix(dist(cbind (t(A[]),t(B[])))))^2)/2
 	n=dim(A)[2]
 	m=dim(B)[2]	 	 
 	C= array(0, dim=c(n,m))
-	for( d in 1:dim(A)[1]){
-    		#C = C + (repmat(b(d,:), n, 1) - repmat(a(d,:)', 1, m)).^2
-    		C = C +   (B[rep(d,n),]    -  ( t(A[rep(d,m),]) ))^2
+		
+	if(m==1)	{    #special case, R automatically turns a column matrix  into a one row matrix
+		for( d in 1:dim(A)[1]){
+			C= C+t((B[rep(d,n),]    -  ( t(A[rep(d,m),]) ))^2 )
+		}
+	}else{
+		for( d in 1:dim(A)[1]){
+    			#C = C + (repmat(b(d,:), n, 1) - repmat(a(d,:)', 1, m)).^2
+    			C = C +   (B[rep(d,n),]    -  ( t(A[rep(d,m),]) ))^2
+		}
 	}
-
 	return (C)
 }
 

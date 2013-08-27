@@ -1,4 +1,3 @@
-
 minimize = function (X, f, .length, covfunc, x, y)
 {
 #Explanation from gpml Matlab package:

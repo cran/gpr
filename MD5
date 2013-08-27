@@ -1,10 +1,10 @@
-40a9086a317b3d01b818a9cc9bd66c97 *DESCRIPTION
+e8e938700140a73de2657242ff51cf8e *DESCRIPTION
 18522b00933ff7db02674afd14946e2c *NAMESPACE
 c806950131475fbf95bc21ab03cce5a8 *R/covNoise.r
-df11fe8ea0522402eedfb9697274fd13 *R/covSEiso.r
+b2da24149001a2e422a879e5fecd61bb *R/covSEiso.r
 557b842e3d89ceedd6e40c3e45e2ede0 *R/covSum.r
 a548247dc98871bda37d81c15ce85d27 *R/gpr.r
-1d4b63a95b24815696146e3edce2a095 *R/minimize.r
+79820c823048d36fde070ad7e84c5ed5 *R/minimize.r
 059662944c1f530d23a64b676dc4b240 *inst/doc/covNoise.pdf
 b06a43e1611e612b6a0293a3728dd38e *inst/doc/covSEiso.pdf
 1f0f6c4a9c710c6150890194bb39db2d *inst/doc/covSum.pdf
